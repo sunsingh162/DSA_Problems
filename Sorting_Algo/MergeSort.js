@@ -46,3 +46,9 @@ function merge(left, right){
 }
 
 console.log(mergeSort([6,3,1,5,4,2]));
+
+/* Time complexity - 
+1) Divide Step: Happens log n times.
+2) Merge Step: At each level of recursion, all 𝑛 elements are processed (merging two halves).
+Total Time Complexity = O(n⋅logn).
+*/
